@@ -1,0 +1,45 @@
+instructions: "Fill the 'null' bin values in dependent_variables with your results.
+               In the rightmost bin include ALL events with S_T > 2180 GeV.
+               Do not modify bin edges.
+              "
+description: "Signal event counts for binned S_T"
+target: "BB -> bZbZ, B quark 1200 GeV, B(B->bZ) = 100%"
+cm_energy_gev: 13000
+luminosity_fb: 35.9
+---
+dependent_variables:
+- header: {name: BB_bZbZ_1200}
+  values:
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+  - {value: null}
+independent_variables:
+- header: {name: ST, units: GEV}
+  values:
+  - {low: 1000.0, high: 1080.0}
+  - {low: 1080.0, high: 1160.0}
+  - {low: 1160.0, high: 1240.0}
+  - {low: 1240.0, high: 1320.0}
+  - {low: 1320.0, high: 1400.0}
+  - {low: 1400.0, high: 1480.0}
+  - {low: 1480.0, high: 1560.0}
+  - {low: 1560.0, high: 1640.0}
+  - {low: 1640.0, high: 1730.0}
+  - {low: 1730.0, high: 1820.0}
+  - {low: 1820.0, high: 1910.0}
+  - {low: 1910.0, high: 2000.0}
+  - {low: 2000.0, high: 2090.0}
+  - {low: 2090.0, high: 2180.0}
+  - {low: 2180.0, high: 2500.0}

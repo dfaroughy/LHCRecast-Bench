@@ -1,0 +1,17 @@
+[task]
+id          = "b2g-17-012_sim-tZtZ_A"
+paper       = "CMS-B2G-17-012"
+type        = "simulation"
+target      = "TT_tZtZ_1200"
+observable  = "ST"
+
+[metadata]
+difficulty = "hard"
+walltime   = "3h"
+tags       = ["VLQ", "CMS", "B2G", "13TeV", "vector-like quarks", "boosted", "dilepton", "TT"]
+
+[metrics]
+tolerance = 0.05
+mode = "shape_norm"
+plot = "Events/bin"
+report = ["relative_l2", "delta"]

@@ -1,0 +1,36 @@
+dependent_variables:
+- header: {name: BB_bZbZ_1200}
+  values:
+  - {value: 0.0169071}
+  - {value: 0.0101118}
+  - {value: 0.0258196}
+  - {value: 0.0582453}
+  - {value: 0.0409574}
+  - {value: 0.0915365}
+  - {value: 0.0761354}
+  - {value: 0.143264}
+  - {value: 0.219189}
+  - {value: 0.41815}
+  - {value: 0.319878}
+  - {value: 0.549602}
+  - {value: 0.449698}
+  - {value: 0.869816}
+  - {value: 5.67693}
+independent_variables:
+- header: {name: ST, units: GEV}
+  values:
+  - {low: 1000.0, high: 1080.0}
+  - {low: 1080.0, high: 1160.0}
+  - {low: 1160.0, high: 1240.0}
+  - {low: 1240.0, high: 1320.0}
+  - {low: 1320.0, high: 1400.0}
+  - {low: 1400.0, high: 1480.0}
+  - {low: 1480.0, high: 1560.0}
+  - {low: 1560.0, high: 1640.0}
+  - {low: 1640.0, high: 1730.0}
+  - {low: 1730.0, high: 1820.0}
+  - {low: 1820.0, high: 1910.0}
+  - {low: 1910.0, high: 2000.0}
+  - {low: 2000.0, high: 2090.0}
+  - {low: 2090.0, high: 2180.0}
+  - {low: 2180.0, high: 2500.0}
